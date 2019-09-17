@@ -1,11 +1,13 @@
 ### Created Date
 09/16/2019
+September 17th 2019
 
 ### Project Title
 BikeShare
 
 ### Description
 In this project, requirement was write Python code to import US bike share data and answer interesting questions about it by computing descriptive statistics. Also had to write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+Incorporated feedback provided by my project mentor to enhance the code on interactive experience.
 
 ### Files used
 Washington.csv
