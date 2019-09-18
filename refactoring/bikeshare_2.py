@@ -102,13 +102,13 @@ def load_data(city, month, day):
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == DAY_DATA[day]]
 
-    # give user the ability to view 5 rows of data until the user chooses not to
-    user_data_view = input("Would you like to see the first 5 rows of data (yes/no) ? \n")
+    # give user the ability to view 6 rows of data until the user chooses not to
+    user_data_view = input("Would you like to see the first 6 rows of data (yes/no) ? \n")
     count = 0
     while user_data_view in ['yes', 'Yes', 'YES']:
-        print(df[count: 5 + count])
-        user_data_view = input("Would you still like to see the next 5 rows of data (yes/no) \n")
-        count += 5
+        print(df[count: 6 + count])
+        user_data_view = input("Would you still like to see the next 6 rows of data (yes/no) \n")
+        count += 6
 
     return df
 
